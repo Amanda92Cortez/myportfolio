@@ -1,0 +1,32 @@
+.conteudoPrincipal{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.conteudoPrincipal-sub{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.conteudoPrincipal__img{
+  width: 150px;
+}
+
+.conteudoPrincipal__texto{
+  font-size: 1.5rem;
+  color: var(--cor-verde-agua);
+}
+
+.conteudoPrincipal__nome{
+  font-size: 4rem;
+  color: var(--cor-verde-agua);
+}
+
+@media(max-width: 768px){
+  .conteudoPrincipal-sub{
+    flex-direction: column;
+  }
+}

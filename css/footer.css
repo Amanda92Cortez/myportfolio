@@ -1,0 +1,26 @@
+footer{
+  color: var(--cor-verde-agua);
+  text-align: center;
+  padding: 40px 0;
+  border-top: 2px solid white;
+  font-size: 25px;
+}
+
+.rodapePrincipal{
+  background-color: var(--branco);
+  padding-top: 20px;
+}
+
+.footer__img{
+  width: 200px;
+}
+
+.copyright{
+  margin: 20px 0 0;
+}
+
+@media(max-width:769px){
+  .footer__img{
+    width: 150px;
+  }
+}
